@@ -93,10 +93,9 @@
       </nav>
 
       <!-- Header -->
-      <div class="container d-flex">
-    
+      <!-- <div class="container d-flex">
           <header d-flex flex-wrap align-items-center justify-content-between header>
-           
+            
               <ul class="nav col-12 col-md-auto header-nav">
                 <li class="nav-item">
                   <div class="btn-group dropend">
@@ -129,8 +128,50 @@
               <button class="btn btn-outline-success" type="submit">Search</button>
            
           </header>
+        </div> -->
+
+      <nav class="navbar col-9 bg-body-tertiary justify-content-between">
+        <div class="container">
+          <ul class="nav col-12 col-md-auto header-nav">
+            <li class="nav-item">
+              <div class="btn-group dropend">
+                <a
+                  type="button"
+                  class="btn dropdown-toggle dropright header-main--unset header-main active show"
+                  href="#store"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
+                >
+                  Главная
+                </a>
+                <ul
+                  class="dropdown-menu show m-0"
+                  aria-labelledby="dropdownMenuLink"
+                  data-bs-popper="static"
+                >
+                  <li>
+                    <a class="dropdown-item header-mainLink--unset header-main m-0" href="#"
+                      >Мои магазины</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      </div>
+      </nav>
+
+
+
     </div>
 
     <script
